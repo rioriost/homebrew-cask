@@ -1,8 +1,8 @@
 cask "solixmenu" do
-  version "1.0.9"
-  sha256 "9213c71750ac89719169253a50bbc98c1a61d1181402b18ee8089981bc58b87c"
+  version "1.0.10"
+  sha256 "204de0adc734e36b909978b51501078a6a30941b88b720d49e8a67e6cd4c0b7c"
 
-  url "https://github.com/rioriost/solixmenu/releases/download/v1.0.9/SolixMenu-v1.0.9.zip"
+  url "https://github.com/rioriost/solixmenu/releases/download/1.0.10/SolixMenu-1.0.10.zip"
   name "SolixMenu"
   desc "Lightweight macOS menu bar app for monitoring Anker Solix devices"
   homepage "https://github.com/rioriost/solixmenu"
