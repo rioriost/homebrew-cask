@@ -1,6 +1,6 @@
 cask "macos-auth" do
   version "0.1.0"
-  sha256 "eed1fcb6d2504a4f280e1b839790e6f21deb7f9e43a3a05ed1995b5ec0791e76"
+  sha256 "2be7c6650587fc16ac98c4d52ac41ade9038a5a350ed726b8b6202b95788b1cb"
 
   url "https://github.com/rioriost/macos-auth/releases/download/v#{version}/macos-auth-#{version}-darwin-arm64.pkg"
   name "macos-auth"
