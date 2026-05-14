@@ -25,8 +25,8 @@ cask "macos-auth" do
     It does not create agent keys, host allowlists, or a per-user LaunchAgent automatically.
 
     After preparing an agent config, install the LaunchAgent with:
-      /opt/homebrew/share/macos-auth/scripts/install-launchagent.sh \
-        --agent-bin /opt/homebrew/bin/macos-auth-agent \
+      /opt/homebrew/share/macos-auth/scripts/install-launchagent.sh \\
+        --agent-bin /opt/homebrew/bin/macos-auth-agent \\
         --config "$HOME/Library/Application Support/macos-auth/agent-config.json"
 
     Check status with:
