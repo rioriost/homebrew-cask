@@ -1,6 +1,6 @@
 cask "virt-connector" do
-  version "0.1.0"
-  sha256 "e30901f420b5aceeb96eb228c06b42e739231f51f0d0dca52949ff75b51b0804"
+  version "0.1.1"
+  sha256 "f1d5d4a1fad834cafcddfbfef9d41ce13ce560315024aad897ad2bafe1b88fb9"
 
   url "https://github.com/rioriost/virt-connector/releases/download/v#{version}/VirtConnector-#{version}-signed.pkg"
   name "VirtConnector"
