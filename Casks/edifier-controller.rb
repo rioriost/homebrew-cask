@@ -1,6 +1,6 @@
 cask "edifier-controller" do
-  version "0.1.1"
-  sha256 "9aa7e18d804cba256a08f7613d3505859fa00082bba531a3716cdc660b49b1c7"
+  version "0.1.2"
+  sha256 "da36b226c73f4943a527c07c5c3679dc8a733d2f8a599a622ce37b7fd5593a43"
 
   url "https://github.com/rioriost/edf-controller/releases/download/v#{version}/EdifierController-#{version}.zip"
   name "Edifier Controller"
