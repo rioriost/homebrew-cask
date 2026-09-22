@@ -1,6 +1,6 @@
 cask "edf-controller" do
-  version "0.2.2"
-  sha256 "34e1dff66520bba77fe7597d0d1fccff41445b7a24f2dd57b349072ff3626528"
+  version "0.2.3"
+  sha256 "221128fe80d0b0a734fc398daa53910465268c4b1ce21ba454701909c45729cc"
 
   url "https://github.com/rioriost/edf-controller/releases/download/v#{version}/EdfController-#{version}.zip"
   name "Edf Controller"
