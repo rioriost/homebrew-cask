@@ -9,8 +9,6 @@ cask "pam-watchid" do
   desc "Approve sudo using Touch ID or Apple Watch"
   homepage "https://github.com/rioriost/pam_watchid"
 
-  disable! date: "2026-09-23", because: "the Homebrew upgrade uninstall hook can stall"
-
   supported_macos = [:sequoia, :tahoe]
   supported_macos << :golden_gate if native_arm
   depends_on macos: supported_macos
