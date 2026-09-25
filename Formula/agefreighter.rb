@@ -2,26 +2,26 @@
 class Agefreighter < Formula
   desc "Validated, resumable graph migration into Apache AGE"
   homepage "https://github.com/rioriost/agefreighter"
-  version "2.3.1"
+  version "2.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rioriost/agefreighter/releases/download/v2.3.1/agefreighter_v2.3.1_darwin_arm64.tar.gz"
-      sha256 "36c586b029620ad41ed463e301f7f47ff7e025b079638ed0e67ede3eaae3987c"
+      url "https://github.com/rioriost/agefreighter/releases/download/v2.4.0/agefreighter_v2.4.0_darwin_arm64.tar.gz"
+      sha256 "7ef852886467fc9bb2006d568e50ce39a82ae017023b8aea2ec2cdca1f044536"
     else
-      url "https://github.com/rioriost/agefreighter/releases/download/v2.3.1/agefreighter_v2.3.1_darwin_amd64.tar.gz"
-      sha256 "7f3f7fae0202a2460c5f7e904fb312bce5266cce5fc997f4835e4530e3dce262"
+      url "https://github.com/rioriost/agefreighter/releases/download/v2.4.0/agefreighter_v2.4.0_darwin_amd64.tar.gz"
+      sha256 "6f0667362ff396d2df6a286eea679e6ca63f2d0ead55746e97fc8189e39b97f4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rioriost/agefreighter/releases/download/v2.3.1/agefreighter_v2.3.1_linux_arm64.tar.gz"
-      sha256 "7db1ad782b4ffbc6713ee37d06c8e6c194cc533e75b8baad865dd44839b326dc"
+      url "https://github.com/rioriost/agefreighter/releases/download/v2.4.0/agefreighter_v2.4.0_linux_arm64.tar.gz"
+      sha256 "e3a3ecc024d1cd4805bb2f5a9692718175db0c3af7d5c535f2bd7306726e75e4"
     else
-      url "https://github.com/rioriost/agefreighter/releases/download/v2.3.1/agefreighter_v2.3.1_linux_amd64.tar.gz"
-      sha256 "953a5bc826d4700b95496eaf97a054875cd983cc77f0c39db519500346563f93"
+      url "https://github.com/rioriost/agefreighter/releases/download/v2.4.0/agefreighter_v2.4.0_linux_amd64.tar.gz"
+      sha256 "666c6c88b6081b9c1878cd6e564e85eb9b26ec16c3f3288cba14709b6413fa80"
     end
   end
 
