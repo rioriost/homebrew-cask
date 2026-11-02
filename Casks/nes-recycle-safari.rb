@@ -7,7 +7,7 @@ cask "nes-recycle-safari" do
   desc "Fill the Nespresso recycling pickup form in Safari"
   homepage "https://github.com/rioriost/nes_recycle"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "nes_recycle.app"
 
