@@ -7,11 +7,12 @@ cask "nes-recycle-safari" do
   desc "Fill the Nespresso recycling pickup form in Safari"
   homepage "https://github.com/rioriost/nes_recycle"
 
-  depends_on macos: ">= 26.2"
+  depends_on macos: ">= :tahoe"
 
   app "nes_recycle.app"
 
   caveats <<~EOS
+    macOS 26.2 or later is required by the app.
     Open nes_recycle once, then enable its extension in Safari > Settings > Extensions.
     Allow access to input-form.jp when Safari prompts for website permissions.
   EOS
